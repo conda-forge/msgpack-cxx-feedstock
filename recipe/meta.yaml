@@ -10,7 +10,12 @@ source:
     sha256: d02f7ffd28b1d38ab9f5f758c4744fadfae92150461fb8154c98ac49226cff90
 
 build:
-  number: 0
+  number: 1
+  run_exports:
+    # 2023/05 -- hmaarrfk
+    # Set to same pin as msgpack-c
+    # https://github.com/conda-forge/msgpack-c-feedstock/blob/main/recipe/meta.yaml#L21
+    - {{ pin_subpackage('msgpack-cxx', max_pin='x') }}
 
 requirements:
   build:
