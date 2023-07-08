@@ -200,6 +200,3 @@ Feedstock Maintainers
 * [@hmaarrfk](https://github.com/hmaarrfk/)
 * [@traversaro](https://github.com/traversaro/)
 
-
-<!-- dummy commit to enable rerendering -->
-
