@@ -18,8 +18,5 @@ macos_machine:
 - arm64-apple-darwin20.0.0
 target_platform:
 - osx-arm64
-zip_keys:
-- - c_stdlib_version
-  - MACOSX_DEPLOYMENT_TARGET
 zlib:
 - '1.2'
