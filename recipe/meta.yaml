@@ -10,7 +10,7 @@ source:
     sha256: 5e63e4d9b12ab528fccf197f7e6908031039b1fc89cd8da0e97fbcbf5a6c6d3a
 
 build:
-  number: 2
+  number: 3
   run_exports:
     # 2023/05 -- hmaarrfk
     # Set to same pin as msgpack-c
