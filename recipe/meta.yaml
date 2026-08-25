@@ -1,5 +1,5 @@
 {% set name = "msgpack-cxx" %}
-{% set version = "7.0.0" %}
+{% set version = "9.0.0" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   - url: https://github.com/msgpack/msgpack-c/archive/cpp-{{ version }}.tar.gz
-    sha256: 070881ebea9208cf7e731fd5a46a11404025b2f260ab9527e32dfcb7c689fbfc
+    sha256: a72ff7471eb8adf8470a21aec33d70f184a20e215f167e2d4c38d56d9a377205
 
 build:
-  number: 2
+  number: 0
   run_exports:
     # 2023/05 -- hmaarrfk
     # Set to same pin as msgpack-c
